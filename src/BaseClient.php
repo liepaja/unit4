@@ -183,7 +183,7 @@ class BaseClient
         $this->setToken($token);
         
         // token update callback
-        ($this->updateTokenCallback)($this->getToken());
+        $this->updateTokenCallback($this->getToken());
     }
     
     /**
