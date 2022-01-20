@@ -86,9 +86,9 @@ class BaseClient
         
         // build base uri
         if ($this->sandbox) {
-            $this->baseUrl = 'https://sandbox.api.online.unit4.nl';
+            $this->baseUrl = 'https://sandbox.api.multivers.nl';
         } else {
-            $this->baseUrl = 'https://api.online.unit4.nl';
+            $this->baseUrl = 'https://api.multivers.nl';
         }
         
         $this->baseUrl .= '/v'.$this->version;
